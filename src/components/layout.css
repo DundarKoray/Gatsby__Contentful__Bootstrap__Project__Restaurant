@@ -7,6 +7,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --mainWhite: #fff;
+  --mainBlack: #262626;
+  --mainYellow: #d2aa5c;
+  --mainYellow2: #F2AF29;
+  --mainGrey: #474747;
+}
+
 body {
   font-family: 'Raleway', sans-serif !important;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
 }

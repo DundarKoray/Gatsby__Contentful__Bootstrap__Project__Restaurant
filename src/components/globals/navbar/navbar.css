@@ -1,0 +1,26 @@
+@media (min-width: 768px){
+    .navbar-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .toggle-icon {
+        display: none;
+    }
+
+}
+
+
+.header-wrapper {
+    padding: 0.4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle-icon {
+    font-size: 1.7rem;
+    color: var(--mainYellow);
+    cursor: pointer;
+
+}
