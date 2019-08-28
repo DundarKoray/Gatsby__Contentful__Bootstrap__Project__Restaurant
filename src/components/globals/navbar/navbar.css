@@ -24,6 +24,30 @@
     cursor: pointer;
 }
 
-.link-wrapper {
-    
+.link_wrapper_close {
+    list-style: none;
+    height: 0;
+    overflow: hidden;
 }
+
+.link_wrapper_open {
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: var(--mainGrey);
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link:hover {
+    background: var(--mainGrey);
+    color: var(--mainWhite);
+    padding: 0.5rem 1rem 0.5rem 2rem;
+}
+

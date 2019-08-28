@@ -17,7 +17,7 @@ class Navbar extends Component {
         return (
             <nav className="navbar-wrapper">
                 <NavbarHeader handleNavbar={this.handleNavbar} />
-                <NavbarLinks navbarOpen={this.navbarOpen}/>
+                <NavbarLinks navbarOpen={this.state.navbarOpen}/>
                 <NavbarIcons />
             </nav>
         );

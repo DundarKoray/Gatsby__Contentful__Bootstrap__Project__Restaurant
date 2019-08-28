@@ -29,8 +29,14 @@ class NavbarLinks extends Component {
         ]
     }
     render() {
+        console.log(this.props.navbarOpen)
+        let link_wrapper;
+        (this.props.navbarOpen) ? link_wrapper = 'link_wrapper_open'
+        : link_wrapper = 'link_wrapper_close'
+        
         return (
-            <ul className="link-wrapper" open={this.props.navbarOpen}>
+            <ul className={link_wrapper}>
+            
                 {this.state.links.map(link => {
                     return (
                         <li key={link.id}>
