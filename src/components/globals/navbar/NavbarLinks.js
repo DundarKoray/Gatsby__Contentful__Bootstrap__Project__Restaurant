@@ -30,12 +30,18 @@ class NavbarLinks extends Component {
     }
     render() {
         console.log(this.props.navbarOpen)
-        let link_wrapper;
-        (this.props.navbarOpen) ? link_wrapper = 'link_wrapper_open'
-        : link_wrapper = 'link_wrapper_close'
+        let status;
+
+        if(this.props.navbarOpen){
+            status = 'link-wrapper-open'
+        } else {
+            status = 'link-wrapper-close'
+        }
+        
+        
         
         return (
-            <ul className={link_wrapper}>
+            <ul className={`link-wrapper ${status}`}>
             
                 {this.state.links.map(link => {
                     return (
