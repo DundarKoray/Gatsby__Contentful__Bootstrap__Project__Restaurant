@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.home-header {
+    min-height: calc(100vh - 55.78px);
+    
+}
+
+.sub-page-header {
+    min-height: 60vh;
+}

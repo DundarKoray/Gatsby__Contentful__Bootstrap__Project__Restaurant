@@ -31,6 +31,7 @@ class NavbarIcons extends Component {
                     return ( 
                             <a 
                                 href={item.path} 
+                                key={item.id}
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             > 

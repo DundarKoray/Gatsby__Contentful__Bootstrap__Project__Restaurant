@@ -1,0 +1,21 @@
+.banner-wrapper {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.title {
+    color: var(--mainWhite);
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', 'sans';
+}
+
+.subtitle {
+    color: var(--mainWhite);
+    letter-spacing: 0.15rem;
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-transform: capitalize;
+}
