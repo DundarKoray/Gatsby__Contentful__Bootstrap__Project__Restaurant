@@ -1,0 +1,594 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Gatsby Tutorial and Projects Course | Udemy</title>
+<meta name="description" content="Create Blazingly Fast Websites with Gatsby"><meta name="title" content="Gatsby Tutorial and Projects Course"><meta name="apple-itunes-app" content="app-id=562413829, affiliate-data=ct=Safari_SmartBanner&amp;amp;pt=1240482"><meta name="google-play-app" content="app-id=com.udemy.android"><meta name="medium" content="mult"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="noindex,follow"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"><meta property="fb:app_id" content="313137469260"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="udemy_com:available" content="1"><meta property="udemy_com:category" content="IT &amp; Software"><meta property="udemy_com:instructor" content="https://www.udemy.com/user/janis-smilga-3/"><meta property="udemy_com:price" content="€19.99"><meta property="og:title" content="Gatsby Tutorial and Projects Course"><meta property="og:url" content="https://www.udemy.com/gatsby-tutorial-and-projects-course/"><meta property="og:description" content="Create Blazingly Fast Websites with Gatsby"><meta property="og:image" content="https://i.udemycdn.com/course/480x270/2176554_3198_6.jpg"><meta property="og:type" content="udemy_com:course"><meta property="og:site_name" content="Udemy"><meta property="og:locale" content="en_US"><meta name="twitter:domain" content="www.udemy.com"><meta name="twitter:title" content="Gatsby Tutorial and Projects Course"><meta name="twitter:url" content="https://www.udemy.com/gatsby-tutorial-and-projects-course/"><meta name="twitter:description" content="Create Blazingly Fast Websites with Gatsby"><meta name="twitter:image" content="https://i.udemycdn.com/course/480x270/2176554_3198_6.jpg"><meta name="twitter:site" content="@udemy"><meta itemprop="name" content="Gatsby Tutorial and Projects Course"><meta itemprop="url" content="https://www.udemy.com/gatsby-tutorial-and-projects-course/"><meta itemprop="description" content="Create Blazingly Fast Websites with Gatsby"><meta itemprop="image" content="https://i.udemycdn.com/course/480x270/2176554_3198_6.jpg">
+<link type="text/css" href="/staticx/udemy/js/webpack/entry-main-legacy.627db56dc59f22ce5ff7.css" rel="stylesheet" />
+<link rel="preconnect" href="https://udemy-images.udemy.com" crossorigin />
+<link rel="dns-prefetch" href="https://udemy-images.udemy.com" crossorigin />
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-152x152.png" />
+ <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="Udemy" />
+<meta name="msapplication-TileColor" content="#EDECE6" />
+<meta name="msapplication-TileImage" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-310x310.png" />
+<style>/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>
+<style>
+    .org-logo {
+        background-image: url('https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg');
+    }
+
+    @media (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+        @-ms-viewport { width:device-width; zoom:1.0; }
+        .org-logo {
+            /*retina display*/
+            background-image: url('https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg');
+        }
+    }
+</style>
+<link type="text/css" href="/staticx/udemy/js/webpack/asset-player.c824a2f5c0f1411ad440.css" rel="stylesheet" />
+<script type="text/javascript">
+    (function () {
+        var head,
+            regExp = "",
+            version = -1,
+            userAgent = navigator.userAgent;
+
+        if (navigator.appName == 'Microsoft Internet Explorer') {
+            regExp = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+        } else if (navigator.appName == 'Netscape') {
+            regExp = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
+        }
+        if (regExp && regExp.exec(userAgent) != null) {
+            version = parseFloat(RegExp.$1);
+        }
+
+        if (version > 9) {
+            head = document.getElementsByTagName("html")[0];
+            head.className = head.className + " ie";
+            if (version == 10) {
+                head.className = head.className + " ie10";
+            }
+        }
+    })();
+</script>
+<script>
+    // Polyfill for IE in order to fix errors related with new Event() and new CustomEvent()
+    // https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent#Polyfill
+    (function () {
+      if ( typeof window.CustomEvent === "function" ) return false;
+      function CustomEvent ( event, params ) {
+        params = params || { bubbles: false, cancelable: false, detail: undefined };
+        var evt = document.createEvent( 'CustomEvent' );
+        evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+        return evt;
+       }
+      CustomEvent.prototype = window.Event.prototype;
+      window.CustomEvent = CustomEvent;
+      window.Event = CustomEvent;
+    })();
+
+    // Shim for requestIdleCallback.
+    // https://developers.google.com/web/updates/2015/08/using-requestidlecallback
+    window.requestIdleCallback = window.requestIdleCallback || function (cb) {
+      var start = Date.now();
+      return setTimeout(function () {
+        cb({
+          didTimeout: false,
+          timeRemaining: function () {
+            return Math.max(0, 50 - (Date.now() - start));
+          }
+        });
+      }, 1);
+    };
+</script>
+<script>
+    var UD = UD || {};
+    UD.me = {"title":"Koray D\u00fcndar","encrypted_affiliate_email":"48476b6e8d4a40edb84a503b15c22f0a360becf2","encrypted_id":"x019-zU7K-7sUQtz733fFq4vA==","number_of_courses_purchased":19,"percent_coupon_page_enabled":false,"encrypted_affiliate_uid":"eca4f1a72e872ad7cea5ea66fe0672f4983875b4","locale":"en_US","has_made_paid_purchase":true,"language":"en","learning_languages":[],"created":"2016-04-03T12:14:31Z","initials":"KD","image_50x50":"https://i.udemycdn.com/user/50x50/21724728_a9ee_9.jpg","job_title":"","display_name":"Koray D\u00fcndar","id":21724728,"_class":"user","surname":"D\u00fcndar","percent_coupon_page_creation_enabled":null,"country":"FI","settings":{"disableAllEmails":null,"interstitialAutoNext":null},"name":"Koray","qualaroo_survey_ids":["craftsy"],"time_zone":"Asia/Amman","image_100x100":"https://i.udemycdn.com/user/100x100/21724728_a9ee_9.jpg","email":"koraydundar_40@hotmail.com"};
+    UD.Config = {"app_name":"course_taking","url":{"to_js":"https://www.udemy.com/staticx/udemy/js/","to_page_events":"https://page-events-ustats.udemy.com/","to_images":"https://www.udemy.com/staticx/udemy/images/","to_app":"https://www.udemy.com/","to_root":"https://www.udemy.com/"},"brand":{"title":"Udemy","is_share_to_workplace_enabled":false,"is_discussions_enabled":true,"is_profile_functions_enabled":true,"product_logo_light":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral-light.svg","is_udemy":true,"is_external_sources_enabled":true,"is_autoshow_cc_enabled":true,"is_sso_enabled":false,"is_government":false,"is_team":false,"is_teaching_enabled":true,"is_social_sharing_enabled":true,"_class":"brand","organization":false,"identifier":"udemy","is_add_reviews_enabled":true,"has_organization":false,"product_name":"Udemy","logo_url_2x":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg","is_messaging_enabled":true,"is_import_courses_enabled":true,"link_bar_nav_list_id":"ud-link-bar","is_third_party_marketing_enabled":true,"is_share_on_slack_enabled":false,"product_logo":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg","is_feed_commenting_enabled":true},"price_country":{"id":"FI","currency_formatter":{"pattern":"!#,##0.00","scale":2,"locale":"en_US","group":",","symbol":"\u20ac","currency":"eur","decimal":"."},"usd_currency_formatter":{"pattern":"!#,##0.00","scale":2,"locale":"en_US","group":",","symbol":"$","currency":"usd","decimal":"."},"currency_symbol":"\u20ac","_class":"country","currency_charm_amount":-0.01,"currency_decimal_places":2,"currency":"eur"},"supported_languages":[{"locale":"en_US","name":"English","lang":"en"},{"locale":"de_DE","name":"Deutsch","lang":"de"},{"locale":"es_ES","name":"Espa\u00f1ol","lang":"es"},{"locale":"fr_FR","name":"Fran\u00e7ais","lang":"fr"},{"locale":"id_ID","name":"Bahasa Indonesia","lang":"id"},{"locale":"it_IT","name":"Italiano","lang":"it"},{"locale":"ja_JP","name":"\u65e5\u672c\u8a9e","lang":"ja"},{"locale":"ko_KR","name":"\ud55c\uad6d\uc5b4","lang":"ko"},{"locale":"nl_NL","name":"Nederlands","lang":"nl"},{"locale":"pl_PL","name":"Polski","lang":"pl"},{"locale":"pt_BR","name":"Portugu\u00eas","lang":"pt"},{"locale":"ro_RO","name":"Rom\u00e2n\u0103","lang":"ro"},{"locale":"ru_RU","name":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439","lang":"ru"},{"locale":"th_TH","name":"\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22","lang":"th"},{"locale":"tr_TR","name":"T\u00fcrk\u00e7e","lang":"tr"},{"locale":"zh_CN","name":"\u4e2d\u6587(\u7b80\u4f53)","lang":"zh-cn"},{"locale":"zh_TW","name":"\u4e2d\u6587(\u7e41\u9ad4)","lang":"zh-tw"}],"js_bundle":"modern","use_cookieless_hls":true,"version":"326c7b62bef8ef9910f53fe2858751cf74932aa1","env":"PROD","third_party":{"paypal":{"returnurl":"https://www.udemy.com/user/paypal-login-return","authend":"live","appid":"ASRJrkbBfTwvxWNTn-QRakeimIbsjmBuK5hWj4zq3QJL46CKIYNb-RiKjrTSe-2iZ-EFrCCuXGZTxHjY"},"user_stripe_publishable_key":"pk_live_irq0bIHI571jdMt2ZBJRgHxJ","pusher":{"coding_exercise_event":"coding-exercise-evaluated","key":"825910825f8199bd5b21"},"google_tag_manager_id":"GTM-7BF3X","zendesk":{"refund_form_id":406368},"google_analytics_id_for_ufb_only":"UA-12366301-47","branch_metrics":{"ios_download_url":"http://ude.my/ios","android_download_url":"http://ude.my/android","android_ufb_download_url":"http://ude.my/android-ufb","ios_ufb_download_url":"http://ude.my/ios-ufb"},"sift_science_account":false,"google_analytics_id":"UA-12366301-1","google_analytics_id_for_course_taking":"UA-12366301-45","intercom":{"app_id":"sehj53dd"},"facebook_app_id":"313137469260","filestack":{"audio_extensions":[".mp3",".wav"],"presentation_extensions":[".pdf"],"key":"A0EHlHYkEQbCTpDvxEwAYz","video_extensions":[".avi",".mpg",".mpeg",".flv",".mov",".m2v",".m4v",".mp4",".rm",".ram",".vob",".ogv",".webm",".wmv"],"source_code_extensions":[".rb",".py"],"s3_fineuploader_misc_extensions":[".xcs",".dp",".fsc",".ei6",".atomsvc",".dcr",".spp",".joda",".cdmia",".ic6",".gsheet",".xpm",".uvvz",".726",".cdbcmsg",".pkipath",".smil",".koz",".2",".cap",".cellml",".mxl",".dsm",".wg",".mj2",".pgm",".wdb",".nc",".vcg",".ns3",".qcp",".hbci",".mfm",".wml",".mod",".djvu",".ez2",".dpkg",".tmo",".ic4",".mesh",".mif",".fla",".rng",".dvb",".svgz",".s1a",".spot",".rif",".cdmiq",".quiz",".utz",".lvp",".text",".xop",".vrml",".irp",".jlt",".hxx",".669",".mc1",".pnm",".distz",".jpgm",".link66",".odd",".uvva",".dir",".dpg",".pyc",".flx",".ext",".pre",".ra",".msl",".mets",".spx",".mp3",".mtm",".obj",".wbxml",".zmm",".afp",".shar",".exi",".sfd-hdstx",".crtr",".mpn",".anx",".xdw",".grv",".ic2",".eml",".ltf",".rl",".sppt",".gex",".i2g",".sms",".ter",".potx",".eol",".wps",".pot",".xlim",".cnd",".s1h",".lbc",".sti",".kar",".kcm",".sdf",".fits",".rpm",".wk3",".cml",".s1w",".m4u",".uo",".uvvv",".ndc",".viv",".aal",".c4u",".ait",".mbk",".mp1",".siv",".ddf",".fm",".pseg3820",".mp2",".bkm",".seed",".stc",".evc",".semd",".asx",".docx",".sjpg",".jam",".fit",".copyright",".xyze",".nnd",".uvvh",".exe",".slt",".zaz",".apxml",".xer",".o4v",".atomdeleted",".1905.1",".zirz",".xsd",".o",".cer",".mpt",".pm",".ecelp7470",".mcd",".etx",".gbr",".package",".hdr",".ai",".stw",".zip",".sub",".bat",".mrc",".lasxml",".nitf",".sandboxed",".paw",".les",".sgi",".ghf",".mus",".c4g",".grxml",".icc",".vxml",".ica",".ic1",".bcpio",".quox",".spn",".aep",".oa2",".ic3",".wiz",".rdf-crypt",".st",".wk1",".smpg",".cmp",".texi",".geo",".hvd",".ivp",".hvs",".xpdl",".csv",".chrt",".tsa",".xsl",".rq",".mpa",".skt",".pskcxml",".xdssc",".m3u8",".gre",".dfac",".pya",".acn",".mpg4",".cpl",".ic8",".mml",".nnw",".m15",".ustar",".rnd",".xsm",".tag",".mwc",".3gp",".ptid",".ras",".lrm",".dsc",".ahead",".igx",".sxm",".aiff",".xps",".mmr",".sql",".mseed",".qwd",".shf",".kpr",".jp2",".vst",".scq",".ccmp",".roa",".sldx",".knp",".qxd",".mxi",".ram",".hvp",".uvu",".rpst",".dd",".odm",".clkt",".ivu",".axv",".asf",".jar",".fly",".xlw",".ksh",".pcl",".mxf",".1",".g2w",".mxmf",".pptx",".rgb",".wmv",".g3w",".mdi",".tcl",".evw",".rcprofile",".dssc",".fdf",".bin",".kom",".otg",".pdb",".vew",".ns4",".fts",".saf",".srx",".pgn",".icf",".nsh",".vcard",".ppa",".xltm",".m1v",".el",".smzip",".fbs",".semf",".aa3",".xul",".qwt",".edx",".bed",".tau",".s3m",".sm",".jpm",".iso",".frm",".tiff",".art",".oga",".gph",".xz",".xls",".src",".zir",".wmlc",".ogg",".silo",".bmp",".ppt",".atom",".mseq",".torrent",".tga",".png",".mpkg",".mpga",".uvi",".cdmid",".xspf",".omg",".sem",".fg5",".tao",".plj",".tnef",".plc",".ipk",".cdxml",".cdmic",".oas",".me",".vbox",".m21",".sxw",".xbd",".pwn",".hps",".ppd",".s1g",".m3u",".nsg",".tnf",".flac",".gdl",".uvvp",".vtu",".ink",".btif",".appcache",".kwd",".s3df",".sam",".5",".ppkg",".tur",".sxg",".p12",".tra",".pml",".qxl",".or3",".s1p",".uvvf",".uvs",".sdoc",".tar",".u8hdr",".mmd",".aif",".wav",".pgb",".unityweb",".nlu",".m4v",".daf",".7",".kml",".wbmp",".ggb",".prc",".slaz",".m2v",".wmx",".ogv",".awb",".xslt",".acu",".umj",".msd",".wif",".lzh",".sgif",".abc",".mov",".bdm",".vss",".rtx",".au",".cab",".ism",".seml",".sxc",".ic7",".spdf",".p8",".midi",".dxp",".jpeg",".xyz",".p10",".irm",".mbox",".cww",".otc",".cpkg",".pl",".4",".xfdf",".sfd",".portpkg",".fcdt",".stm",".win",".scs",".f90",".hh",".3g2",".clkk",".x3d",".tpl",".slc",".gim",".crl",".vcf",".smo",".qam",".nml",".rgbe",".ssml",".clkx",".finf",".xhtml",".htm",".sig",".vis",".smh",".dist",".spd",".s1n",".lbd",".oa3",".ac3",".skd",".clkw",".mwf",".opus",".qbo",".doc",".css",".tlclient",".mpc",".mb",".s1q",".acc",".l16",".xmls",".qcall",".kmz",".str",".csp",".dart",".vsd",".evb",".xfdl",".wtb",".xla",".fnc",".txf",".ifb",".3gpp",".wbs",".sdkd",".xmt_txt",".kon",".twd",".sxl",".ogx",".listafp",".smht",".ntf",".lostxml",".bh2",".pbd",".sjp",".karbon",".chm",".study-inter",".ico",".xpi",".ggt",".sis",".fpx",".asc",".igl",".miz",".osf",".odg",".pcap",".fzs",".eot",".mgp",".sdp",".cdkey",".ttf",".amr",".dr",".ult",".xsf",".wlnk",".vpm",".ts",".bar",".susp",".pkg",".ttl",".ktr",".gqf",".odb",".msm",".plf",".med",".prz",".nb",".scsf",".n3",".azf",".vbk",".mpd",".xlsx",".gmx",".cmc",".t38",".qxb",".mods",".txd",".ez3",".wrl",".rp9",".relo",".uri",".es",".json-patch",".tree",".mail",".apk",".wpd",".ic5",".mpg",".igm",".p7c",".teacher",".c11amz",".gxt",".ssw",".tif",".cii",".wmlsc",".s1j",".hbc",".uvvg",".curl",".c11amc",".tcap",".dna",".tex",".hqx",".sc",".spq",".meta4",".jpg",".ep",".nds",".ms",".msty",".mrcx",".pyo",".sus",".uvvs",".mht",".xif",".cpt",".dataless",".uvv",".cst",".uni",".cdy",".txt",".qfx",".sru",".mlp",".cla",".ors",".ez",".qt",".skp",".moml",".kwt",".iges",".nsf",".g\u00b3",".ief",".gtw",".xht",".ktz",".fti",".ccxml",".swi",".xav",".mpy",".dll",".itp",".plb",".sgm",".xns",".mid",".uris",".esa",".stif",".ice",".dcf",".sse",".bmi",".c",".webm",".xca",".pwz",".efif",".mpeg",".mft",".entity",".pvb",".sdo",".kpt",".wvx",".gif",".lbe",".sic",".so",".s1e",".sl",".xdm",".jtd",".sv4crc",".jpf",".wk4",".manifest",".notebook",".fxp",".uvz",".xdf",".xlsm",".mdc",".snd",".uvg",".pgp",".djv",".tfx",".map",".mads",".pptm",".pack",".pil",".otp",".provn",".c4f",".h",".wmls",".hal",".gsm",".vsw",".atx",".spo",".uvvu",".bmml",".xfd",".scd",".gram",".ufdl",".lmp",".box",".cuc",".rep",".sac",".psid",".see",".emm",".mpf",".dor",".xlc",".tfi",".oprc",".tsr",".ecelp9600",".texinfo",".stk",".cw",".dxf",".xvm",".mpp",".vcx",".conf",".ssf",".dcm",".u8msg",".wma",".vcd",".sh",".inkml",".pqa",".log",".n-gage",".g3",".zone",".gtar",".xhvml",".wks",".cgm",".igs",".kil",".docm",".html",".c4p",".uvvm",".fe_launch",".davmount",".wsc",".tuc",".smp3",".psd",".spf",".ufd",".ecelp4800",".kfo",".rdz",".fcs",".xhtm",".cl",".pki",".ftc",".msh",".wpl",".bz2",".sgml",".odc",".stml",".wadl",".vwx",".nws",".epub",".tsd",".dmp",".class",".dxr",".drc",".spl",".xpx",".dm",".webp",".icm",".xlb",".pfx",".ifm",".teiCorpus",".u8mdn",".jpg2",".3dml",".ods",".model-inter",".fst",".xlt",".wax",".oda",".iif",".mhtml",".uric",".provx",".atc",".xmt_bin",".sv4cpio",".soc",".rsheet",".uvvx",".odf",".list3820",".ami",".ppsx",".mag",".scm",".yin",".eps",".dms",".wspolicy",".wm",".ktx",".pdf",".xwd",".ims",".uvh",".wsdl",".mp21",".gqs",".metalink",".smp",".mxml",".tcu",".dotm",".svc",".wqd",".mjp2",".mp4",".sxd",".dpgraph",".mgz",".auc",".oxt",".x_b",".odt",".dwg",".py",".ccc",".xbm",".flv",".clkp",".pfr",".mts",".si",".azv",".dd2",".org",".msf",".dts",".fvt",".uvx",".cif",".a",".mms",".dwf",".sfs",".dis",".sla",".bpd",".thmx",".flo",".iota",".sit",".uvf",".btf",".vsf",".sswf",".otf",".esf",".soa",".rdf",".123",".s11",".oxps",".vsc",".nns",".xvml",".jad",".hpid",".8",".axa",".rnc",".woff",".jisp",".skm",".emma",".u8dsn",".p7s",".cc",".wv",".ppm",".fo",".or2",".rld",".xar",".tr",".rm",".hpgl",".pls",".oti",".o4a",".xpw",".gz",".x_t",".qxt",".yang",".movie",".xml",".cdmio",".xltx",".gv",".ns2",".xpr",".rct",".rip",".uvt",".std",".azs",".s14",".stf",".xel",".uvm",".p7m",".fxm",".crx",".tsv",".swf",".pyv",".odp",".sldm",".mxu",".td",".mqy",".3dm",".pbm",".ott",".svg",".dvc",".smi",".apr",".nim",".wgt",".psb",".sxls",".cil",".dtshd",".potm",".es3",".kia",".et3",".ppam",".cryptonote",".sxi",".uvvi",".edm",".enw",".qps",".pod",".orq",".lha",".rsm",".zfo",".roff",".sid",".pps",".rss",".cpio",".wcm",".cxx",".htke",".uoml",".cdf",".ic0",".tsq",".icd",".avi",".acutc",".3gpp2",".tgz",".fxpl",".lwp",".ma",".dotx",".dvi",".odi",".kne",".rtf",".flw",".latex",".jnlp",".aso",".csh",".xlsb",".ddd",".ndl",".jfif",".mpe",".ent",".mpm",".uvvt",".at3",".imp",".uvd",".request",".dtd",".s1m",".ps",".rpss",".dot",".sdkm",".gac",".sieve",".rms",".m4a",".aifc",".t",".jpx",".upa",".jpe",".ac",".uva",".wmc",".ksp",".qca",".sml",".lostsyncxml",".sisx",".rst",".uvvd",".3",".hdf",".fdt",".img",".sema",".ots",".mxs",".xdp",".c4d",".m",".ppsm",".js",".xlm",".taglet",".opf",".pti",".hpi",".atomcat",".uvp",".json",".tpt",".rs",".rlc",".tei",".dls",".smv",".smov",".twds",".nbp",".xlam",".gtm",".man",".pkd",".spng",".ics",".preminet",".oth",".xo",".ipfix",".6",".mmf",".dae",".ngdat"],"filepicker_misc_extensions":[".gif",".jpg",".jpeg",".png",".rar",".zip",".pdf"]},"raven_dsn":"https://369c830fbf534485a068ab919d71b80d@app.getsentry.com/38617","stripe_publishable_key":"pk_live_xOuIgZiF7hb3wSwFSAOz3dRm","uft_stripe_publishable_key":"pk_live_dCyHJcZsk8NaNwx1PiRSpqqq","s3":{"asset":{"bucket_url":"https://udemy-web-upload-transitional.s3.amazonaws.com","key":"AKIAIOTLFW3HMG563JEA"},"image_asset":{"bucket_url":"https://udemy-image-web-upload.s3.amazonaws.com","key":"AKIAIOTLFW3HMG563JEA"},"images":{"base_url":"https://i.udemycdn.com/"}}},"features":{"flyout":true,"course_review":{"clp_review_search":true,"leave_feedback":true},"course":{"students":{"unenroll":false},"refundable":true,"discussions":{"view":true},"announcements":{"comments":{"view":true}}},"zendesk_chat":false,"invite":{"alert":true},"referral_program_enabled":true,"course_landing_page":{"incentives":{"lifetime_access":true,"access_tv":true},"money_back_guarantee":true,"instructor_bio":{"social_links":true,"image":true,"stats":true}},"hello_bar":{"instructor":false,"terms":true,"pricing":true},"social_share":{"welcome_popup":true,"email":false},"reviews":{"show_user_avatar":true},"wishlist":true,"intercom_chat":true,"bundle":{"instructor_bio":{"social_links":true}},"shopping_cart":true,"organization":{"manage_insights":{"timeframe_filtering":false},"learning_path":{"enabled":false},"auth":{"custom_error_messaging_enabled":true,"scim_api_enabled":false},"manage_satisfaction":{"satisfaction":false},"enterprise":{"onboarding_enabled":true}},"ufb_notices":true,"home":{"my_courses":{"revenue":true,"privacy":true,"free_label":true},"signup_cta":true},"discount":{"change_alerts":true},"ufb_notices_footer":{"top_com":true},"report_abuse":true,"logged_in_home":{"linkbar_level_2":true,"ufb_ad":false},"notice":{"ufb_smart_bar":false,"instructor_bar":false,"smart_bar":false},"gift_course":true},"marketplace_country":{"id":"FI","title":"Finland","iso_code":"FIN","_class":"country","currency":"eur"}};
+    UD.site_stats = {"organizations":{"num_courses":3500},"default":{"num_topics":2000,"num_courses":100000,"num_students":24,"num_instructors":35000}};
+    UD.visiting = {"visitor_uuid":"b9ce8682452f409d93e394b0db38a24b","first_visit_time":"2018-09-18T20:56:12.453Z","is_first_time_visitor":false};
+    UD.tracking = {"tracking_id":"73ef1bc61fe84291a1c48383df418dd8","collector_url":"https://event-collector.udsrv.com/api/event","tracking_enabled":true};
+</script>
+<script>
+    UD.request = {
+        locale: 'en_US',
+        third_party_location: '/gatsby-tutorial-and-projects-course/learn/lecture/13416050',
+        navigation_locale: 'en_US',
+        language_simple_english_title: 'English',
+        termsBarType: '',
+        termsBarUrls: "",
+        isMobile: false,
+        isTablet: false,
+        isPC: true,
+        serverTimestamp: '2019-09-17T00:53:12.334722+03:00',
+        clientTimestamp: new Date().toISOString(),
+        
+            extraIntercomData: {"hide_default_launcher":true},
+        
+    };
+    UD.experiment = {"sw":{"2248":{"variant":5670,"values":{"isCookielessHLS":true},"state":"recorded"},"2288":{"variant":5788,"values":{"price_engine_variant":2},"state":"recorded"},"2338":{"variant":5938,"values":{"ufb_header_ad__show_ad":true,"ufb_header_ad__drop_bell":false},"state":"recorded"},"2334":{"variant":5924,"values":{"ufb_logged_in_header":"three_rows"},"state":"recorded"}},"lihp":{"2232":{"variant":5630,"values":{"subscriptions_enabled":false},"state":"recorded"}}};
+</script>
+<script>
+    if (window.performance && typeof window.performance.mark === 'function'
+            && typeof window.performance.measure === 'function') {
+        UD.performance = {
+            _trackedResources: [],
+            _eventNamePrefix: 'UD-',
+            trackResourceTiming: function (resourceName, resourceUrl) {
+                this._trackedResources.push({ name: resourceName, url: resourceUrl });
+            },
+            mark: function (name) {
+                window.performance.mark(this._eventNamePrefix + name);
+            },
+            start: function (name) {
+                window.performance.mark(this._eventNamePrefix + '_' + name + '-start');
+            },
+            end: function (name) {
+                var endMark = this._eventNamePrefix + '_' + name + '-end';
+                var startMark = this._eventNamePrefix + '_' + name + '-start';
+                window.performance.mark(endMark);
+                
+                if (window.performance.getEntriesByName(startMark).length > 0) {
+                    window.performance.measure(this._eventNamePrefix + name, startMark, endMark);
+                }
+            },
+            sync: function() {
+                
+                window.dispatchEvent(new CustomEvent('syncPerf',
+                    { detail: { trackedResources: this._trackedResources } }
+                ));
+            }
+        };
+    } else {
+        UD.performance = {
+            trackResourceTiming: Function.prototype,
+            mark: Function.prototype,
+            start: Function.prototype,
+            end: Function.prototype,
+            sync: Function.prototype
+        };
+    }
+</script>
+<script>
+            UD.browse = {
+                navigation_categories: [{"icon_name":"development","title":"Development","type":"category","title_cleaned":"development","absolute_url":"/courses/development/","children":[{"icon_name":"web-development","title":"Web Development","type":"subcategory","title_cleaned":"web-development","absolute_url":"/courses/development/web-development/","children":null,"id":8},{"icon_name":"mobile-apps","title":"Mobile Apps","type":"subcategory","title_cleaned":"mobile-apps","absolute_url":"/courses/development/mobile-apps/","children":null,"id":10},{"icon_name":"programming-languages","title":"Programming Languages","type":"subcategory","title_cleaned":"programming-languages","absolute_url":"/courses/development/programming-languages/","children":null,"id":12},{"icon_name":"game-development","title":"Game Development","type":"subcategory","title_cleaned":"game-development","absolute_url":"/courses/development/game-development/","children":null,"id":14},{"icon_name":"databases","title":"Databases","type":"subcategory","title_cleaned":"databases","absolute_url":"/courses/development/databases/","children":null,"id":16},{"icon_name":"software-testing","title":"Software Testing","type":"subcategory","title_cleaned":"software-testing","absolute_url":"/courses/development/software-testing/","children":null,"id":18},{"icon_name":"software-engineering","title":"Software Engineering","type":"subcategory","title_cleaned":"software-engineering","absolute_url":"/courses/development/software-engineering/","children":null,"id":20},{"icon_name":"development-tools","title":"Development Tools","type":"subcategory","title_cleaned":"development-tools","absolute_url":"/courses/development/development-tools/","children":null,"id":362},{"icon_name":"e-commerce","title":"E-Commerce","type":"subcategory","title_cleaned":"e-commerce","absolute_url":"/courses/development/e-commerce/","children":null,"id":354}],"id":288},{"icon_name":"business","title":"Business","type":"category","title_cleaned":"business","absolute_url":"/courses/business/","children":[{"icon_name":"finance","title":"Finance","type":"subcategory","title_cleaned":"finance-courses","absolute_url":"/courses/business/finance-courses/","children":null,"id":24},{"icon_name":"entrepreneurship","title":"Entrepreneurship","type":"subcategory","title_cleaned":"entrepreneurship","absolute_url":"/courses/business/entrepreneurship/","children":null,"id":26},{"icon_name":"communications","title":"Communications","type":"subcategory","title_cleaned":"communications","absolute_url":"/courses/business/communications/","children":null,"id":28},{"icon_name":"management","title":"Management","type":"subcategory","title_cleaned":"management","absolute_url":"/courses/business/management/","children":null,"id":30},{"title_cleaned":"sales","title":"Sales","type":"subcategory","icon_name":"sales","absolute_url":"/courses/business/sales/","children":null,"id":32},{"icon_name":"strategy","title":"Strategy","type":"subcategory","title_cleaned":"strategy","absolute_url":"/courses/business/strategy/","children":null,"id":34},{"icon_name":"operations","title":"Operations","type":"subcategory","title_cleaned":"operations","absolute_url":"/courses/business/operations/","children":null,"id":36},{"title_cleaned":"project-management","title":"Project Management","type":"subcategory","icon_name":"project-management","absolute_url":"/courses/business/project-management/","children":null,"id":38},{"icon_name":"business-law","title":"Business Law","type":"subcategory","title_cleaned":"business-law","absolute_url":"/courses/business/business-law/","children":null,"id":40},{"icon_name":"data-and-analytics","title":"Data \u0026 Analytics","type":"subcategory","title_cleaned":"data-and-analytics","absolute_url":"/courses/business/data-and-analytics/","children":null,"id":44},{"icon_name":"home-business","title":"Home Business","type":"subcategory","title_cleaned":"home-business","absolute_url":"/courses/business/home-business/","children":null,"id":46},{"icon_name":"human-resources","title":"Human Resources","type":"subcategory","title_cleaned":"human-resources","absolute_url":"/courses/business/human-resources/","children":null,"id":48},{"icon_name":"industry","title":"Industry","type":"subcategory","title_cleaned":"industry","absolute_url":"/courses/business/industry/","children":null,"id":50},{"icon_name":"media","title":"Media","type":"subcategory","title_cleaned":"media","absolute_url":"/courses/business/media/","children":null,"id":52},{"icon_name":"real-estate","title":"Real Estate","type":"subcategory","title_cleaned":"real-estate","absolute_url":"/courses/business/real-estate/","children":null,"id":58},{"icon_name":"line-star","title":"Other","type":"subcategory","title_cleaned":"other-business","absolute_url":"/courses/business/other-business/","children":null,"id":60}],"id":268},{"icon_name":"finance","title":"Finance \u0026 Accounting","type":"category","title_cleaned":"finance-and-accounting","absolute_url":"/courses/finance-and-accounting/","children":[{"icon_name":"sales","title":"Accounting \u0026 Bookkeeping","type":"subcategory","title_cleaned":"accounting-bookkeeping","absolute_url":"/courses/finance-and-accounting/accounting-bookkeeping/","children":null,"id":530},{"icon_name":"it-certification","title":"Compliance","type":"subcategory","title_cleaned":"compliance","absolute_url":"/courses/finance-and-accounting/compliance/","children":null,"id":532},{"icon_name":"cryptocurrency-and-blockchain","title":"Cryptocurrency \u0026 Blockchain","type":"subcategory","title_cleaned":"cryptocurrency-and-blockchain","absolute_url":"/courses/finance-and-accounting/cryptocurrency-and-blockchain/","children":null,"id":534},{"icon_name":"productivity","title":"Economics","type":"subcategory","title_cleaned":"economics","absolute_url":"/courses/finance-and-accounting/economics/","children":null,"id":536},{"title_cleaned":"finance-management","title":"Finance","type":"subcategory","icon_name":"personal-finance","absolute_url":"/courses/finance-and-accounting/finance-management/","children":null,"id":540},{"icon_name":"test-prep","title":"Finance Cert \u0026 Exam Prep","type":"subcategory","title_cleaned":"finance-certification-and-exam-prep","absolute_url":"/courses/finance-and-accounting/finance-certification-and-exam-prep/","children":null,"id":542},{"icon_name":"analytics-and-automation","title":"Financial Modeling \u0026 Analysis","type":"subcategory","title_cleaned":"financial-modeling-and-analysis","absolute_url":"/courses/finance-and-accounting/financial-modeling-and-analysis/","children":null,"id":544},{"icon_name":"investing-and-trading","title":"Investing \u0026 Trading","type":"subcategory","title_cleaned":"investing-and-trading","absolute_url":"/courses/finance-and-accounting/investing-and-trading/","children":null,"id":546},{"icon_name":"money-management-tools","title":"Money Management Tools","type":"subcategory","title_cleaned":"money-management-tools","absolute_url":"/courses/finance-and-accounting/money-management-tools/","children":null,"id":548},{"icon_name":"office-productivity","title":"Taxes","type":"subcategory","title_cleaned":"taxes","absolute_url":"/courses/finance-and-accounting/taxes/","children":null,"id":550},{"icon_name":"finance","title":"Other Finance \u0026 Economics","type":"subcategory","title_cleaned":"other-finance-and-accounting","absolute_url":"/courses/finance-and-accounting/other-finance-and-accounting/","children":null,"id":552}],"id":328},{"icon_name":"it-and-software","title":"IT \u0026 Software","type":"category","title_cleaned":"it-and-software","absolute_url":"/courses/it-and-software/","children":[{"icon_name":"it-certification","title":"IT Certification","type":"subcategory","title_cleaned":"it-certification","absolute_url":"/courses/it-and-software/it-certification/","children":null,"id":132},{"icon_name":"network-and-security","title":"Network \u0026 Security","type":"subcategory","title_cleaned":"network-and-security","absolute_url":"/courses/it-and-software/network-and-security/","children":null,"id":134},{"icon_name":"hardware","title":"Hardware","type":"subcategory","title_cleaned":"hardware","absolute_url":"/courses/it-and-software/hardware/","children":null,"id":136},{"icon_name":"operating-systems","title":"Operating Systems","type":"subcategory","title_cleaned":"operating-systems","absolute_url":"/courses/it-and-software/operating-systems/","children":null,"id":138},{"icon_name":"line-star","title":"Other","type":"subcategory","title_cleaned":"other-it-and-software","absolute_url":"/courses/it-and-software/other-it-and-software/","children":null,"id":140}],"id":294},{"icon_name":"office-productivity","title":"Office Productivity","type":"category","title_cleaned":"office-productivity","absolute_url":"/courses/office-productivity/","children":[{"icon_name":"microsoft","title":"Microsoft","type":"subcategory","title_cleaned":"microsoft","absolute_url":"/courses/office-productivity/microsoft/","children":null,"id":96},{"icon_name":"apple","title":"Apple","type":"subcategory","title_cleaned":"apple","absolute_url":"/courses/office-productivity/apple/","children":null,"id":98},{"icon_name":"google","title":"Google","type":"subcategory","title_cleaned":"google","absolute_url":"/courses/office-productivity/google/","children":null,"id":100},{"icon_name":"sap","title":"SAP","type":"subcategory","title_cleaned":"sap","absolute_url":"/courses/office-productivity/sap/","children":null,"id":102},{"icon_name":"oracle","title":"Oracle","type":"subcategory","title_cleaned":"oracle","absolute_url":"/courses/office-productivity/oracle/","children":null,"id":106},{"icon_name":"line-star","title":"Other","type":"subcategory","title_cleaned":"other-productivity","absolute_url":"/courses/office-productivity/other-productivity/","children":null,"id":108}],"id":292},{"icon_name":"personal-development","title":"Personal Development","type":"category","title_cleaned":"personal-development","absolute_url":"/courses/personal-development/","children":[{"icon_name":"personal-transformation","title":"Personal Transformation","type":"subcategory","title_cleaned":"personal-transformation","absolute_url":"/courses/personal-development/personal-transformation/","children":null,"id":142},{"icon_name":"productivity","title":"Productivity","type":"subcategory","title_cleaned":"productivity","absolute_url":"/courses/personal-development/productivity/","children":null,"id":144},{"icon_name":"leadership","title":"Leadership","type":"subcategory","title_cleaned":"leadership","absolute_url":"/courses/personal-development/leadership/","children":null,"id":146},{"icon_name":"personal-finance","title":"Personal Finance","type":"subcategory","title_cleaned":"personal-finance","absolute_url":"/courses/personal-development/personal-finance/","children":null,"id":148},{"icon_name":"career-development","title":"Career Development","type":"subcategory","title_cleaned":"career-development","absolute_url":"/courses/personal-development/career-development/","children":null,"id":150},{"icon_name":"parenting-and-relationships","title":"Parenting \u0026 Relationships","type":"subcategory","title_cleaned":"parenting-and-relationships","absolute_url":"/courses/personal-development/parenting-and-relationships/","children":null,"id":152},{"icon_name":"happiness","title":"Happiness","type":"subcategory","title_cleaned":"happiness","absolute_url":"/courses/personal-development/happiness/","children":null,"id":156},{"icon_name":"religion-and-spirituality","title":"Religion \u0026 Spirituality","type":"subcategory","title_cleaned":"religion-and-spirituality","absolute_url":"/courses/personal-development/religion-and-spirituality/","children":null,"id":158},{"icon_name":"personal-brand-building","title":"Personal Brand Building","type":"subcategory","title_cleaned":"personal-brand-building","absolute_url":"/courses/personal-development/personal-brand-building/","children":null,"id":160},{"icon_name":"creativity","title":"Creativity","type":"subcategory","title_cleaned":"creativity","absolute_url":"/courses/personal-development/creativity/","children":null,"id":164},{"icon_name":"influence","title":"Influence","type":"subcategory","title_cleaned":"influence","absolute_url":"/courses/personal-development/influence/","children":null,"id":166},{"icon_name":"self-esteem","title":"Self Esteem","type":"subcategory","title_cleaned":"self-esteem","absolute_url":"/courses/personal-development/self-esteem/","children":null,"id":168},{"icon_name":"stress-management","title":"Stress Management","type":"subcategory","title_cleaned":"stress-management","absolute_url":"/courses/personal-development/stress-management/","children":null,"id":170},{"icon_name":"memory","title":"Memory \u0026 Study Skills","type":"subcategory","title_cleaned":"memory","absolute_url":"/courses/personal-development/memory/","children":null,"id":172},{"icon_name":"motivation","title":"Motivation","type":"subcategory","title_cleaned":"motivation","absolute_url":"/courses/personal-development/motivation/","children":null,"id":176},{"icon_name":"line-star","title":"Other","type":"subcategory","title_cleaned":"other-personal-development","absolute_url":"/courses/personal-development/other-personal-development/","children":null,"id":178}],"id":296},{"icon_name":"design","title":"Design","type":"category","title_cleaned":"design","absolute_url":"/courses/design/","children":[{"icon_name":"web-design","title":"Web Design","type":"subcategory","title_cleaned":"web-design","absolute_url":"/courses/design/web-design/","children":null,"id":6},{"icon_name":"graphic-design","title":"Graphic Design","type":"subcategory","title_cleaned":"graphic-design","absolute_url":"/courses/design/graphic-design/","children":null,"id":110},{"icon_name":"design-tools","title":"Design Tools","type":"subcategory","title_cleaned":"design-tools","absolute_url":"/courses/design/design-tools/","children":null,"id":112},{"icon_name":"user-experience","title":"User Experience","type":"subcategory","title_cleaned":"user-experience","absolute_url":"/courses/design/user-experience/","children":null,"id":114},{"icon_name":"game-design","title":"Game Design","type":"subcategory","title_cleaned":"game-design","absolute_url":"/courses/design/game-design/","children":null,"id":116},{"icon_name":"design-thinking","title":"Design Thinking","type":"subcategory","title_cleaned":"design-thinking","absolute_url":"/courses/design/design-thinking/","children":null,"id":118},{"icon_name":"3d-and-animation","title":"3D \u0026 Animation","type":"subcategory","title_cleaned":"3d-and-animation","absolute_url":"/courses/design/3d-and-animation/","children":null,"id":120},{"icon_name":"fashion","title":"Fashion","type":"subcategory","title_cleaned":"fashion","absolute_url":"/courses/design/fashion/","children":null,"id":122},{"icon_name":"architectural-design","title":"Architectural Design","type":"subcategory","title_cleaned":"architectural-design","absolute_url":"/courses/design/architectural-design/","children":null,"id":124},{"icon_name":"interior-design","title":"Interior Design","type":"subcategory","title_cleaned":"interior-design","absolute_url":"/courses/design/interior-design/","children":null,"id":128},{"icon_name":"line-star","title":"Other","type":"subcategory","title_cleaned":"other-design","absolute_url":"/courses/design/other-design/","children":null,"id":130}],"id":269},{"icon_name":"marketing","title":"Marketing","type":"category","title_cleaned":"marketing","absolute_url":"/courses/marketing/","children":[{"icon_name":"digital-marketing","title":"Digital Marketing","type":"subcategory","title_cleaned":"digital-marketing","absolute_url":"/courses/marketing/digital-marketing/","children":null,"id":62},{"icon_name":"search-engine-optimization","title":"Search Engine Optimization","type":"subcategory","title_cleaned":"search-engine-optimization","absolute_url":"/courses/marketing/search-engine-optimization/","children":null,"id":64},{"icon_name":"social-media-marketing","title":"Social Media Marketing","type":"subcategory","title_cleaned":"social-media-marketing","absolute_url":"/courses/marketing/social-media-marketing/","children":null,"id":66},{"icon_name":"branding","title":"Branding","type":"subcategory","title_cleaned":"branding","absolute_url":"/courses/marketing/branding/","children":null,"id":68},{"icon_name":"marketing-fundamentals","title":"Marketing Fundamentals","type":"subcategory","title_cleaned":"marketing-fundamentals","absolute_url":"/courses/marketing/marketing-fundamentals/","children":null,"id":70},{"icon_name":"analytics-and-automation","title":"Analytics \u0026 Automation","type":"subcategory","title_cleaned":"analytics-and-automation","absolute_url":"/courses/marketing/analytics-and-automation/","children":null,"id":72},{"icon_name":"public-relations","title":"Public Relations","type":"subcategory","title_cleaned":"public-relations","absolute_url":"/courses/marketing/public-relations/","children":null,"id":74},{"icon_name":"advertising","title":"Advertising","type":"subcategory","title_cleaned":"advertising","absolute_url":"/courses/marketing/advertising/","children":null,"id":76},{"icon_name":"video-and-mobile-marketing","title":"Video \u0026 Mobile Marketing","type":"subcategory","title_cleaned":"video-and-mobile-marketing","absolute_url":"/courses/marketing/video-and-mobile-marketing/","children":null,"id":78},{"icon_name":"content-marketing","title":"Content Marketing","type":"subcategory","title_cleaned":"content-marketing","absolute_url":"/courses/marketing/content-marketing/","children":null,"id":80},{"icon_name":"growth-hacking","title":"Growth Hacking","type":"subcategory","title_cleaned":"growth-hacking","absolute_url":"/courses/marketing/growth-hacking/","children":null,"id":86},{"icon_name":"affiliate-marketing","title":"Affiliate Marketing","type":"subcategory","title_cleaned":"affiliate-marketing","absolute_url":"/courses/marketing/affiliate-marketing/","children":null,"id":88},{"icon_name":"product-marketing","title":"Product Marketing","type":"subcategory","title_cleaned":"product-marketing","absolute_url":"/courses/marketing/product-marketing/","children":null,"id":90},{"icon_name":"line-star","title":"Other","type":"subcategory","title_cleaned":"other-marketing","absolute_url":"/courses/marketing/other-marketing/","children":null,"id":94}],"id":290},{"icon_name":"lifestyle","title":"Lifestyle","type":"category","title_cleaned":"lifestyle","absolute_url":"/courses/lifestyle/","children":[{"title_cleaned":"arts-and-crafts","title":"Arts \u0026 Crafts","type":"subcategory","icon_name":"arts-and-crafts","absolute_url":"/courses/lifestyle/arts-and-crafts/","children":null,"id":180},{"title_cleaned":"food-and-beverage","title":"Food \u0026 Beverage","type":"subcategory","icon_name":"food-and-beverage","absolute_url":"/courses/lifestyle/food-and-beverage/","children":null,"id":182},{"title_cleaned":"beauty-and-makeup","title":"Beauty \u0026 Makeup","type":"subcategory","icon_name":"beauty-and-makeup","absolute_url":"/courses/lifestyle/beauty-and-makeup/","children":null,"id":184},{"title_cleaned":"travel","title":"Travel","type":"subcategory","icon_name":"travel","absolute_url":"/courses/lifestyle/travel/","children":null,"id":186},{"title_cleaned":"gaming","title":"Gaming","type":"subcategory","icon_name":"gaming","absolute_url":"/courses/lifestyle/gaming/","children":null,"id":188},{"title_cleaned":"home-improvement","title":"Home Improvement","type":"subcategory","icon_name":"home-improvement","absolute_url":"/courses/lifestyle/home-improvement/","children":null,"id":190},{"title_cleaned":"pet-care-and-training","title":"Pet Care \u0026 Training","type":"subcategory","icon_name":"pet-care-and-training","absolute_url":"/courses/lifestyle/pet-care-and-training/","children":null,"id":192},{"title_cleaned":"other-lifestyle","title":"Other","type":"subcategory","icon_name":"line-star","absolute_url":"/courses/lifestyle/other-lifestyle/","children":null,"id":194}],"id":274},{"icon_name":"photography","title":"Photography","type":"category","title_cleaned":"photography","absolute_url":"/courses/photography/","children":[{"icon_name":"digital-photography","title":"Digital Photography","type":"subcategory","title_cleaned":"digital-photography","absolute_url":"/courses/photography/digital-photography/","children":null,"id":370},{"icon_name":"photography-fundamentals","title":"Photography Fundamentals","type":"subcategory","title_cleaned":"photography-fundamentals","absolute_url":"/courses/photography/photography-fundamentals/","children":null,"id":196},{"icon_name":"portraits","title":"Portraits","type":"subcategory","title_cleaned":"portraits","absolute_url":"/courses/photography/portraits/","children":null,"id":204},{"icon_name":"photography-tools","title":"Photography Tools","type":"subcategory","title_cleaned":"photography-tools","absolute_url":"/courses/photography/photography-tools/","children":null,"id":198},{"icon_name":"commercial-photography","title":"Commercial Photography","type":"subcategory","title_cleaned":"commercial-photography","absolute_url":"/courses/photography/commercial-photography/","children":null,"id":208},{"icon_name":"video-design","title":"Video Design","type":"subcategory","title_cleaned":"video-design","absolute_url":"/courses/photography/video-design/","children":null,"id":218},{"icon_name":"line-star","title":"Other","type":"subcategory","title_cleaned":"other-photography","absolute_url":"/courses/photography/other-photography/","children":null,"id":220}],"id":273},{"icon_name":"health-and-fitness","title":"Health \u0026 Fitness","type":"category","title_cleaned":"health-and-fitness","absolute_url":"/courses/health-and-fitness/","children":[{"icon_name":"fitness","title":"Fitness","type":"subcategory","title_cleaned":"fitness","absolute_url":"/courses/health-and-fitness/fitness/","children":null,"id":222},{"icon_name":"general-health","title":"General Health","type":"subcategory","title_cleaned":"general-health","absolute_url":"/courses/health-and-fitness/general-health/","children":null,"id":224},{"icon_name":"sports","title":"Sports","type":"subcategory","title_cleaned":"sports","absolute_url":"/courses/health-and-fitness/sports/","children":null,"id":226},{"icon_name":"nutrition","title":"Nutrition","type":"subcategory","title_cleaned":"nutrition","absolute_url":"/courses/health-and-fitness/nutrition/","children":null,"id":228},{"icon_name":"yoga","title":"Yoga","type":"subcategory","title_cleaned":"yoga","absolute_url":"/courses/health-and-fitness/yoga/","children":null,"id":230},{"icon_name":"mental-health","title":"Mental Health","type":"subcategory","title_cleaned":"mental-health","absolute_url":"/courses/health-and-fitness/mental-health/","children":null,"id":232},{"icon_name":"dieting","title":"Dieting","type":"subcategory","title_cleaned":"dieting","absolute_url":"/courses/health-and-fitness/dieting/","children":null,"id":234},{"icon_name":"self-defense","title":"Self Defense","type":"subcategory","title_cleaned":"self-defense","absolute_url":"/courses/health-and-fitness/self-defense/","children":null,"id":236},{"icon_name":"safety-and-first-aid","title":"Safety \u0026 First Aid","type":"subcategory","title_cleaned":"safety-and-first-aid","absolute_url":"/courses/health-and-fitness/safety-and-first-aid/","children":null,"id":238},{"icon_name":"dance","title":"Dance","type":"subcategory","title_cleaned":"dance","absolute_url":"/courses/health-and-fitness/dance/","children":null,"id":240},{"icon_name":"meditation","title":"Meditation","type":"subcategory","title_cleaned":"meditation","absolute_url":"/courses/health-and-fitness/meditation/","children":null,"id":242},{"icon_name":"line-star","title":"Other","type":"subcategory","title_cleaned":"other-health-and-fitness","absolute_url":"/courses/health-and-fitness/other-health-and-fitness/","children":null,"id":244}],"id":276},{"icon_name":"music","title":"Music","type":"category","title_cleaned":"music","absolute_url":"/courses/music/","children":[{"icon_name":"instruments","title":"Instruments","type":"subcategory","title_cleaned":"instruments","absolute_url":"/courses/music/instruments/","children":null,"id":296},{"icon_name":"production","title":"Production","type":"subcategory","title_cleaned":"production","absolute_url":"/courses/music/production/","children":null,"id":298},{"icon_name":"music-fundamentals","title":"Music Fundamentals","type":"subcategory","title_cleaned":"music-fundamentals","absolute_url":"/courses/music/music-fundamentals/","children":null,"id":300},{"icon_name":"vocal","title":"Vocal","type":"subcategory","title_cleaned":"vocal","absolute_url":"/courses/music/vocal/","children":null,"id":302},{"icon_name":"music-techniques","title":"Music Techniques","type":"subcategory","title_cleaned":"music-techniques","absolute_url":"/courses/music/music-techniques/","children":null,"id":304},{"icon_name":"music-software","title":"Music Software","type":"subcategory","title_cleaned":"music-software","absolute_url":"/courses/music/music-software/","children":null,"id":306},{"icon_name":"line-star","title":"Other","type":"subcategory","title_cleaned":"other-music","absolute_url":"/courses/music/other-music/","children":null,"id":308}],"id":278},{"icon_name":"academics","title":"Teaching \u0026 Academics","type":"category","title_cleaned":"teaching-and-academics","absolute_url":"/courses/teaching-and-academics/","children":[{"icon_name":"development-tools","title":"Engineering","type":"subcategory","title_cleaned":"engineering","absolute_url":"/courses/teaching-and-academics/engineering/","children":null,"id":366},{"icon_name":"humanities","title":"Humanities","type":"subcategory","title_cleaned":"humanities","absolute_url":"/courses/teaching-and-academics/humanities/","children":null,"id":380},{"icon_name":"educational-development","title":"Math","type":"subcategory","title_cleaned":"math","absolute_url":"/courses/teaching-and-academics/math/","children":null,"id":310},{"icon_name":"math-and-science","title":"Science","type":"subcategory","title_cleaned":"science","absolute_url":"/courses/teaching-and-academics/science/","children":null,"id":312},{"icon_name":"instructional-design","title":"Online Education","type":"subcategory","title_cleaned":"online-education","absolute_url":"/courses/teaching-and-academics/online-education/","children":null,"id":523},{"icon_name":"social-science","title":"Social Science","type":"subcategory","title_cleaned":"social-science","absolute_url":"/courses/teaching-and-academics/social-science/","children":null,"id":376},{"icon_name":"language","title":"Language","type":"subcategory","title_cleaned":"language","absolute_url":"/courses/teaching-and-academics/language/","children":null,"id":521},{"icon_name":"teacher-training","title":"Teacher Training","type":"subcategory","title_cleaned":"teacher-training","absolute_url":"/courses/teaching-and-academics/teacher-training/","children":null,"id":527},{"icon_name":"test-prep","title":"Test Prep","type":"subcategory","title_cleaned":"test-prep","absolute_url":"/courses/teaching-and-academics/test-prep/","children":null,"id":529},{"icon_name":"academics","title":"Other Teaching \u0026 Academics","type":"subcategory","title_cleaned":"other-teaching-academics","absolute_url":"/courses/teaching-and-academics/other-teaching-academics/","children":null,"id":525}],"id":300}],
+                popular_subcategory_topics: {"24":[{"absolute_url":"/topic/financial-analysis/","title":"Financial Analysis","id":5800},{"absolute_url":"/topic/investing/","title":"Investing","id":6282},{"absolute_url":"/topic/finance/","title":"Finance Fundamentals","id":5798},{"absolute_url":"/topic/stock-trading/","title":"Stock Trading","id":7900},{"absolute_url":"/topic/financial-modeling/","title":"Financial Modeling","id":5806},{"absolute_url":"/topic/forex/","title":"Forex","id":5868},{"absolute_url":"/topic/excel/","title":"Excel","id":6730},{"absolute_url":"/topic/accounting/","title":"Accounting","id":4328},{"absolute_url":"/topic/python/","title":"Python","id":7380}],"132":[{"absolute_url":"/topic/aws-certification/","title":"AWS Certification","id":4704},{"absolute_url":"/topic/aws-certified-solutions-architect-associate/","title":"AWS Certified Solutions Architect - Associate","id":24774},{"absolute_url":"/topic/cisco-ccna/","title":"Cisco CCNA","id":5044},{"absolute_url":"/topic/comptia-a/","title":"CompTIA A+","id":5166},{"absolute_url":"/topic/aws-certified-developer-associate/","title":"AWS Certified Developer - Associate","id":43860},{"absolute_url":"/topic/comptia-security/","title":"CompTIA Security+","id":5176},{"absolute_url":"/topic/comptia-network/","title":"CompTIA Network+","id":5174},{"absolute_url":"/topic/aws-certified-cloud-practitioner/","title":"AWS Certified Cloud Practitioner","id":46868},{"absolute_url":"/topic/itil-4/","title":"ITIL 4 Foundation","id":107392}],"110":[{"absolute_url":"/topic/photoshop/","title":"Photoshop","id":4402},{"absolute_url":"/topic/graphic-design/","title":"Graphic Design","id":6020},{"absolute_url":"/topic/adobe-illustrator/","title":"Adobe Illustrator","id":4394},{"absolute_url":"/topic/drawing/","title":"Drawing","id":5494},{"absolute_url":"/topic/indesign/","title":"InDesign","id":4396},{"absolute_url":"/topic/digital-painting/","title":"Digital Painting","id":5434},{"absolute_url":"/topic/figure-drawing/","title":"Figure Drawing","id":10470},{"absolute_url":"/topic/logo-design/","title":"Logo Design","id":6570},{"absolute_url":"/topic/coreldraw/","title":"CorelDRAW","id":5244}],"142":[{"absolute_url":"/topic/life-coaching/","title":"Life Coaching","id":10684},{"absolute_url":"/topic/reiki/","title":"Reiki","id":7484},{"absolute_url":"/topic/neuro-linguistic-programming/","title":"Neuro-Linguistic Programming","id":6910},{"absolute_url":"/topic/energy-healing/","title":"Energy Healing","id":5618},{"absolute_url":"/topic/mindfulness/","title":"Mindfulness","id":6770},{"absolute_url":"/topic/neuroscience/","title":"Neuroscience","id":6916},{"absolute_url":"/topic/crystal-energy/","title":"Crystal Energy","id":19020},{"absolute_url":"/topic/emotional-intelligence/","title":"Emotional Intelligence","id":5604},{"absolute_url":"/topic/meditation/","title":"Meditation","id":6680}],"8":[{"absolute_url":"/topic/web-development/","title":"Web Development","id":8322},{"absolute_url":"/topic/javascript/","title":"JavaScript","id":6368},{"absolute_url":"/topic/react/","title":"React","id":7450},{"absolute_url":"/topic/angular/","title":"Angular","id":28016},{"absolute_url":"/topic/css/","title":"CSS","id":5306},{"absolute_url":"/topic/php/","title":"PHP","id":7176},{"absolute_url":"/topic/vue-js/","title":"Vue JS","id":4308},{"absolute_url":"/topic/nodejs/","title":"Node.Js","id":6928},{"absolute_url":"/topic/django/","title":"Django","id":5464}],"10":[{"absolute_url":"/topic/android-development/","title":"Android Development","id":4470},{"absolute_url":"/topic/ios-development/","title":"iOS Development","id":6292},{"absolute_url":"/topic/google-flutter/","title":"Google Flutter","id":52458},{"absolute_url":"/topic/swift/","title":"Swift","id":7956},{"absolute_url":"/topic/react-native/","title":"React Native","id":9884},{"absolute_url":"/topic/dart-programming-language/","title":"Dart Programming Language","id":37860},{"absolute_url":"/topic/mobile-development/","title":"Mobile Development","id":5402},{"absolute_url":"/topic/ionic/","title":"Ionic","id":6290},{"absolute_url":"/topic/kotlin/","title":"Kotlin","id":13554}],"62":[{"absolute_url":"/topic/digital-marketing/","title":"Digital Marketing","id":5430},{"absolute_url":"/topic/google-ads/","title":"Google Ads (Adwords)","id":73900},{"absolute_url":"/topic/google-ads-certification/","title":"Google Ads (AdWords) Certification","id":9838},{"absolute_url":"/topic/marketing-strategy/","title":"Marketing Strategy","id":6630},{"absolute_url":"/topic/social-media-marketing/","title":"Social Media Marketing","id":7788},{"absolute_url":"/topic/facebook-marketing/","title":"Facebook Marketing","id":5744},{"absolute_url":"/topic/email-marketing/","title":"Email Marketing","id":5586},{"absolute_url":"/topic/google-analytics/","title":"Google Analytics","id":5980},{"absolute_url":"/topic/internet-marketing/","title":"Internet Marketing","id":6994}],"44":[{"absolute_url":"/topic/data-science/","title":"Data Science","id":5336},{"absolute_url":"/topic/machine-learning/","title":"Machine Learning","id":6594},{"absolute_url":"/topic/python/","title":"Python","id":7380},{"absolute_url":"/topic/data-analysis/","title":"Data Analysis","id":5328},{"absolute_url":"/topic/deep-learning/","title":"Deep Learning","id":5374},{"absolute_url":"/topic/sql/","title":"SQL","id":7862},{"absolute_url":"/topic/artificial-intelligence/","title":"Artificial Intelligence","id":4624},{"absolute_url":"/topic/microsoft-power-bi/","title":"Microsoft Power BI","id":6740},{"absolute_url":"/topic/business-analysis/","title":"Business Analysis","id":9000}],"26":[{"absolute_url":"/topic/business-fundamentals/","title":"Business Fundamentals","id":4882},{"absolute_url":"/topic/dropshipping/","title":"Dropshipping","id":5502},{"absolute_url":"/topic/amazon-fba/","title":"Amazon FBA","id":4454},{"absolute_url":"/topic/entrepreneurship/","title":"Entrepreneurship Fundamentals","id":5654},{"absolute_url":"/topic/business-strategy/","title":"Business Strategy","id":4898},{"absolute_url":"/topic/startup/","title":"Startup","id":7888},{"absolute_url":"/topic/business-plan/","title":"Business Plan","id":4894},{"absolute_url":"/topic/mug-printing/","title":"Mug Printing","id":32112},{"absolute_url":"/topic/t-shirt-printing/","title":"T-Shirt Printing","id":7974}],"14":[{"absolute_url":"/topic/unity/","title":"Unity","id":8154},{"absolute_url":"/topic/game-development/","title":"Game Development Fundamentals","id":5904},{"absolute_url":"/topic/c-sharp/","title":"C#","id":4904},{"absolute_url":"/topic/unreal-engine/","title":"Unreal Engine","id":8166},{"absolute_url":"/topic/3d-game-development/","title":"3D Game Development","id":4280},{"absolute_url":"/topic/c-plus-plus/","title":"C++","id":4908},{"absolute_url":"/topic/2d-game-development/","title":"2D Game Development","id":25642},{"absolute_url":"/topic/unreal-engine-blueprints/","title":"Unreal Engine Blueprints","id":109866},{"absolute_url":"/topic/mobile-game-development/","title":"Mobile Game Development","id":11042}]},
+            };
+        </script>
+<script>
+    
+    window.GoogleAnalyticsObject = 'ga';
+    window.ga = function () {
+        (window.ga.q = window.ga.q || []).push(arguments);
+    };
+    window.ga.l = 1 * new Date();
+
+    UD.GoogleAnalytics = UD.GoogleAnalytics || {};
+    UD.GoogleAnalytics.createAccount = function (accountId, propertyName, domainName) {
+        if (accountId) {
+            if (propertyName) {
+                // Required for multiple trackers
+                window.ga('create', accountId, 'auto', {'name': propertyName, 'cookieDomain': domainName || 'none',
+                    'siteSpeedSampleRate': 10});
+            } else {
+                window.ga('create', accountId, 'auto', {'siteSpeedSampleRate': 10});
+                window.ga('require', 'displayfeatures'); // Enables retargeting
+            }
+            window.ga('set', {
+                'anonymizeIp': true,
+                'location' : ""
+            });
+        }
+    };
+    UD.GoogleAnalytics.createAccount(UD.Config.third_party.google_analytics_id);
+</script>
+<script>
+   (function activateMyQualaroos(surveyIds) {
+        window._kiq = window._kiq || [];
+        var i, property;
+        for (i = 0; i < surveyIds.length; i++) {
+            property = {};
+            property[surveyIds[i]] = true;
+            window._kiq.push(['set', property]);
+        }
+        window._kiq.push(['identify', UD.visiting.visitor_uuid || '']);
+    })(UD.me.qualaroo_survey_ids);
+</script>
+<script>
+    window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};
+</script>
+<base href="/gatsby-tutorial-and-projects-course/learn/">
+<link rel="preload" as="script" href="/staticx/udemy/js/webpack/course-taking-app.aff974724e548bde8bd2.js">
+</head>
+<body id="udemy" class="  udemy ">
+<div class="main-content-wrapper">
+<div class="ud-app-loader ud-component--smart-bar--app" data-module-id="smart-bar" data-module-priority="-10"></div>
+<div class="main-content">
+<div class="ud-app-loader ud-component--course-taking--app w100p h100p" data-module-id="course-taking" data-module-args="{&quot;canManageCourseQA&quot;:false,&quot;hasDismissedReviewPrompt&quot;:true,&quot;isUserInstructor&quot;:false,&quot;canUserEditCourse&quot;:false,&quot;courseId&quot;:2176554,&quot;isPreviewingAsStudent&quot;:false,&quot;initialCurriculumItemType&quot;:&quot;lecture&quot;,&quot;initialCurriculumItemId&quot;:13416050}">
+</div>
+</div>
+<div class="ud-app-loader ud-angular--intercom--app" data-module-id="intercom"></div>
+<div class="footer-v6 footer--marketplace ud-app-loader ud-component--footer--app
+            footer--en-us
+            footer--with-inst-banner" data-module-id="footer" data-module-args="{&quot;mobileAppDownload&quot;:{&quot;link&quot;:&quot;https://udemy.app.link/garBkjjtDO&quot;},&quot;localeDropdown&quot;:{&quot;currentLanguage&quot;:&quot;English&quot;},&quot;ufbNotice&quot;:{&quot;link&quot;:&quot;https://business.udemy.com/request-demo/?locale=en_US\u0026ref=footer-ad&quot;}}" data-module-priority="-20" data-purpose="footer-bar">
+<div class="fixed-message-container">
+<div class="ud-component--footer--legal-message"></div>
+<div class="ud-app-loader ud-component--footer--eu-cookie-message" data-module-id="eu-cookie-message" data-module-priority="-20">
+</div>
+</div>
+<footer>
+<div class="footer__inst-banner">
+<div class="container">
+<div class="ud-component--footer--inst-banner"></div>
+<div class="container-fluid">
+<div class="row">
+<div class="inst-banner__content">
+<div class="hidden-xs hidden-xxs">
+<img alt="Video course" class="inst-banner__icon mr20" src="https://i.udemycdn.com/teaching/teach-footer.png" width="200" height="180" />
+</div>
+<div class="inst-banner__copy">
+<div class="inst-banner__heading">
+Teach the world online
+</div>
+<div class="inst-banner__subheading">
+Create an online video course, reach students across the globe, and earn money
+</div>
+</div>
+<div>
+<a class="btn btn-default inst-banner__btn pt10" href="/teaching/?ref=bai-sub-footer" role="button" tabindex="0">
+Teach on Udemy
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr />
+<div class="container-flex footer__bottom footer__bottom--ia">
+<div class="row">
+<div class="col-sm-4 col-xs-6 fx-lc footer__bottom__copyright">
+<a class="dib mr20" href="/">
+<img alt="Udemy" class="ufb-logo" src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" width="110" height="32" />
+</a>
+<div class="visible-xxs-block visible-xs-inline-block mb10"></div>
+<span class="footer__copyright dib mr20 text-midnight-lighter">
+Copyright &copy; 2019 Udemy, Inc.
+</span>
+<div class="visible-xxs-block visible-xs-inline-block mb10"></div>
+</div>
+<div class="col-sm-5  col-xs-12 fx-c text-right footer__bottom__links">
+<ul class="links list-inline">
+<li>
+<a data-purpose="terms-link" href="/terms/">
+Terms
+</a>
+</li>
+<li>
+<a data-purpose="privacy-link" href="/terms/privacy/">
+Privacy Policy and Cookie Policy
+</a>
+</li>
+<li>
+<a data-purpose="support-link" href="/support/">
+Help and Support
+</a>
+</li>
+<li class="footer__sitemap">
+<a class=" " data-purpose="footer.links.sitemap" href="/sitemap/">
+Sitemap
+</a>
+</li>
+<li class="footer__sitemap">
+<a class=" " data-purpose="footer.links.popular_courses" href="/popular-courses/">
+Popular courses
+</a>
+</li>
+<li class="footer__app-download-link ud-component--footer--mobile-app-download-link">
+<a data-purpose="app-download-link" href="https://udemy.app.link/garBkjjtDO" target="_blank">
+Get the app
+</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-3 col-xs-6 fx-rc footer__bottom__locale-selector">
+<div class="ud-component--footer--locale-dropdown text-right footer__locale-dropdown">
+<div class="dropup btn-group locale-dropdown">
+<button aria-label="Select language" data-purpose="locale-dropdown-btn" id="locale-dropdown" role="button" aria-haspopup="true" aria-expanded="false" type="button" class="dropdown-toggle btn btn-sm btn-quaternary">
+<span>
+<span class="mr15">
+<span class="ml10 mr10 udi udi-globe"></span>
+<span class="mr10">English</span>
+</span>
+<span class="pos-a" style="right: 12px;">
+<span class="dropdown-caret udi udi-angle-down"></span>
+</span>
+</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="hr-primary" />
+<div class="ud-component--footer--incentive-signup"></div>
+<div class="ud-component--footer--share-welcome-popup"></div>
+</footer>
+</div>
+</div>
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-manifest.ea742e547fa9b8add4c9.js" defer></script>
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-main-modern-vendor.a05dfdf2bc1afd246458.js" defer></script>
+<script type="text/javascript" src="/staticx/udemy/js/webpack/jsi18n-en-us.6bac883c475211481ec4.js" defer></script>
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-main-modern.8a3c989c1794a05573e5.js" defer></script>
+<div class="ud-app-loader ud-component--event-tracking--tracker-initializer" data-module-id="event-tracking" data-module-priority="-10"></div>
+</body>
+</html>

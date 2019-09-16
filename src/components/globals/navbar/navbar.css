@@ -39,7 +39,7 @@
     padding: 0.5rem 1rem 0.5rem 1rem;
     color: var(--mainGrey);
     font-weight: 400;
-    text-transform: uppercase;
+    text-transform: capitalize;
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
