@@ -3,14 +3,14 @@ import './button.css'
 
 const BannerButton = ({children}) => {
     return (
-        <button style={{margin: '2rem auto'}}>{children}</button>
+        <button className="banner-button" style={{margin: '2rem auto'}}>{children}</button>
     );
 };
 
-const SomeOtherButton = ({children}) => {
+const SectionButton = ({children}) => {
     return (
-        <button>{children}</button>
+        <button className="section-button" style={{margin: '2rem auto'}}>{children}</button>
     );
 };
 
-export {BannerButton, SomeOtherButton};
+export {BannerButton, SectionButton};

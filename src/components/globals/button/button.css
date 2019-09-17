@@ -1,19 +1,35 @@
-button {
+.banner-button,
+.section-button {
+    font-family: 'Playfair Display', sans;
     display: block;
-    color: var(--mainWhite);
     background: transparent;
     padding: 0.5rem 1rem;
     text-transform: uppercase;
     font-size: 1.5rem;
     letter-spacing: 0.5rem;
     font-weight: 700;
-    border: 1px solid var(--mainWhite);
     margin-bottom: 1rem;
     transition: all .2s ease-in-out;
 }
 
-button:hover {
+.banner-button {
+    color: var(--mainWhite);
+    border: 1px solid var(--mainWhite);
+}
+
+.banner-button:hover {
     background: var(--mainWhite);
     color: var(--mainBlack);
+    cursor: pointer;
+}
+
+.section-button {
+    color: var(--mainBlack);
+    border: 1px solid var(--mainBlack);
+}
+
+.section-button:hover {
+    background: var(--mainBlack);
+    color: var(--mainWhite);
     cursor: pointer;
 }
