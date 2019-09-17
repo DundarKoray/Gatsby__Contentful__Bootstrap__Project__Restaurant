@@ -1,0 +1,25 @@
+.title-wrapper {
+    text-align: center;
+}
+
+.title-message {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Poiret One', sans-serif;
+    letter-spacing: .3rem;
+    font-size: 1.8rem;
+    color: var(--mainYellow);
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: .3rem;
+    font-size: 2rem;
+    text-transform: uppercase; 
+}
+
+.title-underline {
+    width: 5rem;
+    height: .2rem;
+    background: var(--mainYellow);
+    margin: 0.5rem auto;
+}

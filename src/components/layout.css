@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 
 *{
   margin: 0;
@@ -17,7 +18,8 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif !important;
+  /* font-family: 'Raleway', sans-serif !important; */
+  font-family: 'Poiret One', sans-serif !important;
   color: var(--mainBlack);
   background: var(--mainWhite);
 }

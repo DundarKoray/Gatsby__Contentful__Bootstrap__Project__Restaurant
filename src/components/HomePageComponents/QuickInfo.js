@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import Section from '../globals/section/section'
+import Title from '../globals/title/title'
 
 class QuickInfo extends Component {
     render() {
         return (
-            <div>
-                content from quick info
-            </div>
+            <Section>
+                <Title message="I am a message" title="I am a title" />
+            </Section>
         );
     }
 }
