@@ -1,0 +1,24 @@
+.quick-info-wrapper {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.text {
+    line-height: 2rem;
+    color: var(--mainGrey);
+    word-spacing: 0.2rem;
+}
+
+/*when screen sizes are bigger than 768px width*/
+@media only screen and (min-width: 768px){
+    .quick-info-wrapper {
+        width: 70%;
+    }
+}
+
+
+@media only screen and (min-width: 992px){
+    .quick-info-wrapper {
+        width: 60%;
+    }
+}
