@@ -47,11 +47,11 @@ const Gallery = () => {
                     </div>
                     <div className="item item-2">
                       <Img fluid={img2}/>
-                      <p className="info">awesome pizza</p>
+                      <p className="info">awesome pork</p>
                     </div>
                     <div className="item item-3">
                       <Img fluid={img3}/>
-                      <p className="info">awesome pizza</p>
+                      <p className="info">awesome steak</p>
                     </div>
                   </div>
                 </Section>
