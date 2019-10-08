@@ -6,6 +6,7 @@ import {HomeHeader} from "../components/globals/header/Header";
 import Banner from "../components/globals/banner/Banner"
 import { BannerButton } from "../components/globals/button/Button";
 import QuickInfo from "../components/HomePageComponents/QuickInfo";
+import Gallery from "../components/HomePageComponents/Gallery"
 
 const IndexPage = () => (
   <Layout>
@@ -17,7 +18,8 @@ const IndexPage = () => (
         </BannerButton>
       </Banner>
     </HomeHeader>
-    <QuickInfo/>
+    <QuickInfo />
+    <Gallery />
   </Layout>
 )
 
