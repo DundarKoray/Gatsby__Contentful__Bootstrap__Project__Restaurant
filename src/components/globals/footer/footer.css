@@ -1,0 +1,35 @@
+footer {
+    padding: 2rem 0;
+    background: var(--mainBlack);
+
+}
+
+footer .icons {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+footer .icon {
+    color: var(--mainWhite);
+    font-size: 1.3rem;
+}
+
+footer .title {
+    text-align: center;
+    width: 10rem;
+    color: var(--mainYellow);
+    text-transform: uppercase;
+    padding: 0.3rem 1rem;
+    margin: 0 auto 2rem auto;
+    font-size: 1.5rem;
+    border: 1px solid var(--mainYellow);
+}
+
+.copyright {
+    color: var(--mainWhite);
+    text-transform: capitalize;
+    text-align: center;
+    margin: 1rem 0;
+}

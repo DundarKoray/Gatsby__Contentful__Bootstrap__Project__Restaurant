@@ -8,15 +8,17 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Navbar from "../components/globals/navbar"
+import Footer from "../components/globals/footer/Footer"
 
 import "./bootstrap.min.css"
 import "./layout.css"
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <React.Fragment>
-      <Navbar/>
-      {children} 
+      <Navbar />
+      {children}
+      <Footer />
     </React.Fragment>
   );
 };
