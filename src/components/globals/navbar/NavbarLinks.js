@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import './navbar.css'
 
 class NavbarLinks extends Component {
-    state= {
+    state = {
         links: [
             {
                 id: 0,
@@ -29,26 +29,26 @@ class NavbarLinks extends Component {
         ]
     }
     render() {
-        console.log(this.props.navbarOpen)
+        // console.log(this.props.navbarOpen)
         let status;
 
-        if(this.props.navbarOpen){
+        if (this.props.navbarOpen) {
             status = 'link-wrapper-open'
         } else {
             status = 'link-wrapper-close'
         }
-        
-        
-        
+
+
+
         return (
             <ul className={`link-wrapper ${status}`}>
-            
+
                 {this.state.links.map(link => {
                     return (
                         <li key={link.id}>
                             <Link to={link.path} className="nav-link">{link.name}</Link>
                         </li>
-                    )     
+                    )
                 })}
             </ul>
         )

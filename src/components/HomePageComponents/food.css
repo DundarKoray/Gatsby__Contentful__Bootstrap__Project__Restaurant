@@ -1,0 +1,35 @@
+@media only screen and (min-width: 576px) {
+    .food-wrapper {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-column-gap: 1rem;
+        
+    }
+}
+
+.food-image {
+    border-radius: 0.5rem;
+}
+
+.food-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.food-name {
+    color: var(--mainYellow);
+    margin-top: .5rem;
+}
+
+.food-price {
+    color: var(--mainYellow);
+    margin-top: .5rem;
+}
+
+.food-description {
+    margin-top: .5rem;
+    word-spacing: .2rem;
+    text-transform: lowercase;
+}
