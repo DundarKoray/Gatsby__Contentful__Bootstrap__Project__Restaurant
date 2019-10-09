@@ -25,8 +25,15 @@ module.exports = {
         accessToken: process.env.ACCESS_TOKEN,
       },
     },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        useMozJpeg: false,
+        stripMetadata: true,
+        defaultQuality: 75,
+      },
+    },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,

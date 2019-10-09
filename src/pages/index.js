@@ -2,12 +2,13 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import img from '../images/bcg/homeBcg.jpeg'
-import {HomeHeader} from "../components/globals/header/Header";
+import { HomeHeader } from "../components/globals/header/Header";
 import Banner from "../components/globals/banner/Banner"
 import { BannerButton } from "../components/globals/button/Button";
 import QuickInfo from "../components/HomePageComponents/QuickInfo";
 // import Gallery from "../components/HomePageComponents/Gallery"
 import Gallery from "../components/HomePageComponents/Gallery-1"
+import FoodList from "../components/HomePageComponents/FoodList"
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +22,7 @@ const IndexPage = () => (
     </HomeHeader>
     <QuickInfo />
     <Gallery />
+    <FoodList />
   </Layout>
 )
 
